@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>Weather Entries</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
@@ -41,10 +41,10 @@ export default function App() {
         ))}
       </ul>
       <div>
-        🥳 App successfully hosted. Try creating a new todo.
+        Entries may be deleted by right-clicking.
         <br />
-        <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
-          Review next steps of this tutorial.
+        <a href="https://www.theweathernetwork.com/en/city/ca/ontario/toronto/current">
+          Compare entries to real weather.
         </a>
       </div>
     </main>
