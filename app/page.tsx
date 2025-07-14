@@ -18,6 +18,8 @@ Amplify.configure(outputs);
 const client = generateClient<Schema>();
 
 export default function App() {
+
+  const { signOut } = useAuthenticator();
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
   function listTodos() {
@@ -61,6 +63,8 @@ export default function App() {
           Compare entries to real weather.
         </a>
       </div>
+
+      <button onClick={signOut}>Sign out</button>
     </main>
   );
 }
