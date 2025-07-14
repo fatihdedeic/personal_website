@@ -50,7 +50,7 @@ export default function App() {
         ))}
       </ul>
       <div>
-        Entries may be deleted by right-clicking.
+        Entries may be deleted by clicking.
         <br />
         <a href="https://www.theweathernetwork.com/en/city/ca/ontario/toronto/current">
           Compare entries to real weather.
