@@ -1,6 +1,6 @@
-## IoT Weather Data Management Web Application
+## AWS Amplify Next.js (App Router) Starter Template
 
-This is a web application designed to recieve and allow the user to interact with data collected by autonomous temperature/humidity/pressure sensors set up by the user. 
+This repository provides a starter template for creating applications using Next.js (App Router) and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
 
 ## Overview
 
