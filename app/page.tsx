@@ -18,9 +18,6 @@ Amplify.configure(outputs);
 const client = generateClient<Schema>();
 
 export default function App() {
-
-
-  const { signOut } = useAuthenticator();
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
   function listTodos() {
